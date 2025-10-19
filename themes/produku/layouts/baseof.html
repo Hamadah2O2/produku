@@ -23,6 +23,8 @@
 		<header>{{ partial "header.html" . }}</header>
         <main>{{ block "main" . }}{{ end }}</main>
         <footer>{{ partial "footer.html" . }}</footer>
-        <div class="flying-kind">{{ .Kind }}</div>
+        {{ if hugo.IsDevelopment }}
+            <div class="flying-kind">{{ .Kind }}</div>
+        {{ end }}
     </body>
 </html>
