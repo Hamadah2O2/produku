@@ -1,0 +1,22 @@
+# Assets LFS
+assets/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+assets/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+assets/**/*.png filter=lfs diff=lfs merge=lfs -text
+assets/**/*.gif filter=lfs diff=lfs merge=lfs -text
+assets/**/*.mov filter=lfs diff=lfs merge=lfs -text
+assets/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+assets/**/*.m4a filter=lfs diff=lfs merge=lfs -text
+assets/**/*.oga filter=lfs diff=lfs merge=lfs -text
+assets/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/**/*.webm filter=lfs diff=lfs merge=lfs -text
+# Content LFS
+content/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+content/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+content/**/*.png filter=lfs diff=lfs merge=lfs -text
+content/**/*.gif filter=lfs diff=lfs merge=lfs -text
+content/**/*.mov filter=lfs diff=lfs merge=lfs -text
+content/**/*.mp2 filter=lfs diff=lfs merge=lfs -text
+content/**/*.m4a filter=lfs diff=lfs merge=lfs -text
+content/**/*.oga filter=lfs diff=lfs merge=lfs -text
+content/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+content/**/*.webm filter=lfs diff=lfs merge=lfs -text

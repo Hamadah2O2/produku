@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+input,
+button,
+textarea {
+  font: inherit;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+.flying-kind {
+  display: block;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  color: red;
+  padding: 0.5rem 1rem;
+  background-color: #bfbfbf;
+  border-radius: 2.75rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=style.css.map */
